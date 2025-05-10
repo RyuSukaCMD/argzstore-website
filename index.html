@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Jualan app prem</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url('https://img1.pixhost.to/images/5651/597027406_depayyy.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 400px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    padding: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  header h1 {
+    font-size: 1.8rem;
+    color: #222;
+    margin: 0;
+  }
+  .panel-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .panel-item {
+    background: #f0f4ff;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease;
+  }
+  .panel-item:hover {
+    background: #d4e0ff;
+  }
+  .panel-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .panel-name {
+    font-weight: 600;
+    color: #1a1a1a;
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+  }
+  .panel-desc {
+    font-size: 0.85rem;
+    color: #555;
+  }
+  .panel-price {
+    font-weight: 700;
+    color: #0047b3;
+    font-size: 1rem;
+  }
+  .btn-beli {
+    background: #25d366;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 12px;
+  }
+  .btn-beli:hover {
+    background: #1aa34a;
+  }
+  @media (max-width: 400px) {
+    body {
+      padding: 10px;
+    }
+    .container {
+      padding: 16px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container" role="main">
+    <header>
+      <h1>ARGZ STORE MENYEDIAKAN</h1>
+    </header>
+    <section class="panel-list" aria-label="Daftar produk panel">
+      <article class="panel-item" tabindex="0">
+        <div class="panel-info">
+          <div class="panel-name">Vps digitalocean all ram</div>
+          <div class="panel-desc">Vps digitalocean all ram dari r16c4 sampai r32c8</div>
+        </div>
+        <div class="panel-price">Rp35.000</div>
+        <button class="btn-beli" aria-label="Beli Vps Digital" onclick="beliWhatsApp('Vps digitalocean r16c4 35.000')">Beli</button>
+      </article>
+      <article class="panel-item" tabindex="0">
+        <div class="panel-info">
+          <div class="panel-name">Panel minecraft</div>
+          <div class="panel-desc">Panel minecraft di argstore kualitas terbaik server mc anti delay</div>
+        </div>
+        <div class="panel-price">Rp 5000</div>
+        <button class="btn-beli" aria-label="Beli panel minecraft" onclick="beliWhatsApp(panel minecraft', '5000')">Beli</button>
+      </article>
+      <article class="panel-item" tabindex="0">
+      </article>
+      <article class="panel-item" tabindex="0">
+        <div class="panel-info">
+          <div class="panel-name">Sewa bot permanen</div>
+          <div class="panel-desc">Sewa bot di argzstore bot anti delay fast respon</div>
+        </div>
+        <div class="panel-price">Rp 10.000</div>
+        <button class="btn-beli" aria-label="Beli sewa bot permanen" onclick="beliWhatsApp(sewa bot permanen', '10.000')">Beli</button>
+      </article>
+      <article class="panel-item" tabindex="0">
+      </article>
+      <article class="panel-item" tabindex="0">
+        <div class="panel-info">
+          <div class="panel-name">Sewa bot mingguan</div>
+          <div class="panel-desc">Sewa bot di argzstore bot anti delay fast respon</div>
+        </div>
+        <div class="panel-price">Rp 2000</div>
+        <button class="btn-beli" aria-label="Beli sewa bot mingguan" onclick="beliWhatsApp(sewa bot mingguan', '2000')">Beli</button>
+      </article>
+      <article class="panel-item" tabindex="0">
+      </article>
+      <article class="panel-item" tabindex="0">
+        <div class="panel-info">
+          <div class="panel-name">Jasa install panel ptrodactyl</div>
+          <div class="panel-desc">Jasa install panel sudah termauk wings node</div>
+        </div>
+        <div class="panel-price">Rp 5000</div>
+        <button class="btn-beli" aria-label="Beli Jasa install panel" onclick="beliWhatsApp(jasa install panel', '5000')">Beli</button>
+      </article>
+      <article class="panel-item" tabindex="0"> 
+      </article>
+      <article class="panel-item" tabindex="0">
+        <div class="panel-info">
+          <div class="panel-name">Panel bot whatsapp</div>
+          <div class="panel-desc">Panel bot whatsapp 1gb sampai unli di argzstore kualitas terbaik harga terjangkau anti pt2</div>
+        </div>
+        <div class="panel-price">Rp 10.000</div>
+        <button class="btn-beli" aria-label="Beli Panel bot whatsapp unli" onclick="beliWhatsApp(panel bot whatsapp unli', '10.000')">Beli</button>
+      </article>
+      <article class="panel-item" tabindex="0">
+      </article>
+      <article class="panel-item" tabindex="0">
+        <div class="panel-info">
+          <div class="panel-name">Jasa pasang cloudflre</div>
+          <div class="panel-desc">Keuntungan pasang cloudflare di argzstore murah kualitas terbaik</div>
+        </div>
+        <div class="panel-price">Rp 5000</div>
+        <button class="btn-beli" aria-label="Beli Jasa pasang cloudflare" onclick="beliWhatsApp(jasa pasang cloudflare', '5000')">Beli</button>
+      </article>
+      <article class="panel-item" tabindex="0">
+      </article>
+      <article class="panel-item" tabindex="0">
+        <div class="panel-info">
+          <div class="panel-name">Jasa install theme</div>
+          <div class="panel-desc">Jasa install all theme terbaik</div>
+        </div>
+        <div class="panel-price">Rp 5000</div>
+        <button class="btn-beli" aria-label="Beli Jasa install theme" onclick="beliWhatsApp(jasa install theme', '5000')">Beli</button>
+      </article>
+      <article class="panel-item" tabindex="0">
+      </article>
+      <article class="panel-item" tabindex="0">
+        <div class="panel-info">
+          <div class="panel-name">Admin Panel</div>
+          <div class="panel-desc">Keuntungan admin panel di argzstore bisa open reseller panel bisa jual panel 1gb sampai unli</div>
+        </div>
+        <div class="panel-price">Rp 5000</div>
+        <button class="btn-beli" aria-label="Beli Jasa install panel" onclick="beliWhatsApp(jasa install panel', '5000')">Beli</button>
+      </article>
+      <article class="panel-item" tabindex="0">
+        <div class="panel-info">
+          <div class="panel-name">Nokos whatsapp</div>
+          <div class="panel-desc">Nokos itu nomor kosong buat di verifikasi ke whatsapp kalian</div>
+        </div>
+        <div class="panel-price">Rp 5000</div>
+        <button class="btn-beli" aria-label="Beli Nokos whatsapp" onclick="beliWhatsApp('Nokos whatsapp', '5000')">Beli</button>
+        <div class="panel-info">
+          <div class="panel-name">Nokos telegram</div>
+          <div class="panel-desc">Nokos itu nomor kosong buat di verifikasi ke telegram kalian</div>
+        </div>
+        <div class="panel-price">Rp 5000</div>
+        <button class="btn-beli" aria-label="Beli Nokos telegram" onclick="beliWhatsApp('Nokos telegram', '5000')">Beli</button>
+      </article>
+    </section>
+  </div>
+<script>
+  function beliWhatsApp(namaProduk, harga) {
+    const nomorWA = '62858801507610'; // Ganti dengan nomor WhatsApp tujuan (format internasional tanpa +)
+    const pesan = `Halo, saya ingin membeli produk *${namaProduk}* dengan harga Rp ${harga}. Mohon info lebih lanjut.`;
+    const urlWA = `https://wa.me/${nomorWA}?text=${encodeURIComponent(pesan)}`;
+    window.open(urlWA, '_blank');    
+</script>
+</body>
+</html>
+
+```
